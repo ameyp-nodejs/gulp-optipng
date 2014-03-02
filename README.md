@@ -1,4 +1,4 @@
-# [gulp](https://github.com/wearefractal/gulp)-optipng [![Build Status](https://secure.travis-ci.org/ameyp/gulp-optipng.png?branch=master)](http://travis-ci.org/ameyp/gulp-optipng)
+# [gulp](https://github.com/wearefractal/gulp)-[optipng](http://optipng.sourceforge.net) [![Build Status](https://secure.travis-ci.org/ameyp/gulp-optipng.png?branch=master)](http://travis-ci.org/ameyp/gulp-optipng)
 
 > Lossless minification of PNG with [optipng](http://optipng.sourceforge.net)
 
