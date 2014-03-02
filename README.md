@@ -1,4 +1,4 @@
-# [gulp](https://github.com/wearefractal/gulp)-imagemin [![Build Status](https://secure.travis-ci.org/ameyp/gulp-optipng.png?branch=master)](http://travis-ci.org/ameyp/gulp-optipng)
+# [gulp](https://github.com/wearefractal/gulp)-optipng [![Build Status](https://secure.travis-ci.org/ameyp/gulp-optipng.png?branch=master)](http://travis-ci.org/ameyp/gulp-optipng)
 
 > Lossless minification of PNG with [optipng](http://optipng.sourceforge.net)
 
@@ -16,7 +16,7 @@ npm install --save-dev gulp-optipng
 
 ```js
 var gulp = require('gulp');
-var imagemin = require('gulp-optipng');
+var optipng = require('gulp-optipng');
 
 var options = ['-o2'];
 
