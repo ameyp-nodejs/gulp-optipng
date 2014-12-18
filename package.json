@@ -1,45 +1,46 @@
 {
-    "name": "gulp-optipng",
-    "version": "0.0.2",
-    "description": "Lossless compression of PNG images",
-    "keywords": [
-	"png",
-	"optimize",
-	"compression",
-	"minify",
-	"minifier",
-	"optimize",
-	"optipng",
-	"img",
-	"image",
-	"gulpplugin"
-    ],
-    "license": "MIT",
-    "repository": "git://github.com/ameyp/gulp-optipng",
-    "author": {
-	"name": "Amey Parulekar",
-	"email": "amey@wirywolf.com",
-	"url": "http://wirywolf.com"
-    },
-    "engines": {
-	"node": ">=0.10.0"
-    },
-    "scripts": {
-	"test": "mocha"
-    },
-    "files": [
-	"index.js"
-    ],
-    "dependencies": {
-	"gulp-util": "~2.2.0",
-	"optipng-stream-bin": "~0.0.4",
-	"filesize": "~2.0.0",
-	"through2": "~0.4.0",
-	"concat-stream": "~1.4.1",
-	"multipipe": "~0.0.2"
-    },
-    "devDependencies": {
-	"mocha": "*",
-	"comparejs": "*"
-    }
+  "name": "gulp-optipng",
+  "version": "0.0.2",
+  "description": "Lossless compression of PNG images",
+  "keywords": [
+    "png",
+    "optimize",
+    "compression",
+    "minify",
+    "minifier",
+    "optimize",
+    "optipng",
+    "img",
+    "image",
+    "gulpplugin"
+  ],
+  "license": "MIT",
+  "repository": "git://github.com/ameyp/gulp-optipng",
+  "author": {
+    "name": "Amey Parulekar",
+    "email": "amey@wirywolf.com",
+    "url": "http://wirywolf.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "concat-stream": "~1.4.1",
+    "filesize": "~2.0.0",
+    "gulp-util": "~2.2.0",
+    "multipipe": "~0.0.2",
+    "optipng-stream-bin": "~0.0.4",
+    "through2": "~0.4.0",
+    "win-spawn": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "comparejs": "*"
+  }
 }
