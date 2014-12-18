@@ -37,7 +37,7 @@
     "multipipe": "~0.0.2",
     "optipng-stream-bin": "~0.0.4",
     "through2": "~0.4.0",
-    "win-spawn": "^2.0.0"
+    "win-spawn": "~2.0.0"
   },
   "devDependencies": {
     "mocha": "*",
