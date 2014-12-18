@@ -5,7 +5,7 @@ var filesize = require('filesize');
 var optipngStream = require('optipng-stream-bin').path;
 var through = require('through2');
 var concat = require('concat-stream');
-var spawn = require('child_process').spawn;
+var spawn = (process.platform === 'win32') ? require('win-spawn') : require('child_process').spawn;
 var multipipe = require('multipipe');
 
 module.exports = function (options) {
@@ -31,7 +31,7 @@ module.exports = function (options) {
 	// Massage the options
 	options = options || {};
 
-	var optipng = spawn(optipngStream, options);
+	var optipng = spawn(optipngStream, [], options);
 	var self = this;
 	var origSize;
 
